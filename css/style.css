@@ -1,0 +1,23 @@
+body{
+    padding: 5vw;
+}
+
+#container{
+    padding: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    border-radius: 50px;
+    
+}
+#honey {
+    flex: 1 1 300px;
+    padding: 2vw;
+
+}
+#container img{
+    flex: 1 1 300px;
+    width: 100%;
+    height: auto;
+    margin: 5vw 0;
+}

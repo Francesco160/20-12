@@ -1,0 +1,44 @@
+.card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;    /* Disposizione verticale degli elementi */
+    background-color: #fef7e2;
+    border-radius: 75px;
+    overflow: hidden;          
+    max-width: 250px;
+    height: 390px;
+    
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.bio p{
+    margin: 5px;
+}
+img{
+    flex: 3 0 240px;
+  object-fit: cover;
+}
+.add{
+    background-color: #ffdf7e;
+    border-radius: 30%/100%;
+    position: relative;
+    top: -30px;
+    width: 120px;
+    left: 70px;
+}
+.kg p{
+     position: relative;
+     left: 110px;
+     top: -70px;
+     margin-top: 20px;
+}
+.not {
+    position: relative;
+    top: -10px;
+}

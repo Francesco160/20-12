@@ -1,0 +1,45 @@
+#container {
+    border-radius: 10% / 100%;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin-top: 150px;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;
+    margin-left: 400px;
+    
+    
+}
+#container img{
+    
+    margin-top: -10px;
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+    
+}
+.shop{
+    display: flex;
+    border: aqua;
+    border-radius: 50%/100%;
+    background-color: aqua;
+    padding: 15px;
+    font-size: 20px;
+}
+.big {
+    height: 50px;
+    display: flex;
+    border: aqua;
+    border-radius: 40%/100%;
+    background-color: aqua;
+    padding: 30px;
+}
+.big p{
+    margin-top: 10px;
+     margin-left: 30px;
+     font-size: 30px;
+     
+}
